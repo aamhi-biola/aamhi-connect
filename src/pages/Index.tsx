@@ -5,7 +5,7 @@ import ProfileCard from "@/components/ProfileCard";
 import logoImage from "../logo.png"; 
 
 // --- ADD YOUR PICTURE IMPORTS HERE ---
-import pKwongImg from "../pictures/PKwong.jpg";
+import pKwongImg from "../pictures/priscilla.jpg";
 
 const biolaProfiles = [
   { name: "Priscilla Kwong", image: pKwongImg }, 
