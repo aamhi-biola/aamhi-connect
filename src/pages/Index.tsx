@@ -1,6 +1,8 @@
 import Navbar from "@/components/Navbar";
 import SectionHeading from "@/components/SectionHeading";
 import ProfileCard from "@/components/ProfileCard";
+// Import your logo from the src folder
+import logoImage from "../logo.png"; 
 
 const biolaProfiles = [
   { name: "Priscilla Kwong" },
@@ -27,24 +29,30 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
 
-      {/* Banner */}
-      <section className="w-full h-[280px] md:h-[400px]">
-        <img 
-          src={`${import.meta.env.BASE_URL}AAMH-Banner-Rosemead-Transparent.png`} 
-          alt="Asian American Mental Health Initiative Banner" 
-          className="w-full h-full object-cover"
-        />
-      </section>
-
-      {/* About / Description */}
+      {/* About / Description Section (Banner removed) */}
       <section id="about" className="py-16 md:py-24">
-        <div className="container max-w-3xl text-center">
-          <h1 className="text-4xl md:text-5xl font-serif text-foreground leading-tight">
-            Asian American Mental Health Initiative
-          </h1>
-          <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-            AAMHI aims to cultivate a new generation of mental health professionals who are proficient in providing culturally responsive care, cutting-edge research, and impactful community-service.
-          </p>
+        <div className="container max-w-4xl">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-center md:text-left">
+            
+            {/* Logo Image */}
+            <img 
+              src={logoImage} 
+              alt="AAMHI Logo" 
+              className="w-24 h-24 md:w-32 md:h-32 object-contain"
+            />
+
+            {/* Title with Manual Line Breaks */}
+            <h1 className="text-4xl md:text-5xl font-serif text-foreground leading-tight">
+              Asian American <br />
+              <span className="block md:inline">Mental Health Initiative</span>
+            </h1>
+          </div>
+
+          <div className="max-w-3xl mx-auto text-center mt-10">
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              AAMHI aims to cultivate a new generation of mental health professionals who are proficient in providing culturally responsive care, cutting-edge research, and impactful community-service.
+            </p>
+          </div>
         </div>
       </section>
 
