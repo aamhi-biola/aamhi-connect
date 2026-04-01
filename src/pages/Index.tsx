@@ -10,6 +10,7 @@ import justineImg from "../pictures/justine.jpg";
 import lydiaImg from "../pictures/lydiacho.jpg";
 import chriskimImg from "../pictures/chriskim.png";
 import irisImg from "../pictures/iris.jpg";
+import dianaImg from "../pictures/diana.png";
 import ericaleeImg from "../pictures/ericalee.png";
 import terenceImg from "../pictures/terence.jpg";
 import figuresBackground from "../pictures/oneinfive.png";
@@ -23,7 +24,7 @@ const biolaProfiles = [
 const greaterLAProfiles = [
   { name: "Christina Kim", affiliation: "Fuller Psychological & Family Services", image: chriskimImg },
   { name: "Iris Yam", affiliation: "Hoag Memorial Hospital Presbyterian", image: irisImg },
-  { name: "Diana Nguyen", affiliation: "New Horizons Community Wellness Center" },
+  { name: "Diana Nguyen", affiliation: "New Horizons Community Wellness Center", image: dianaImg },
   { name: "Bella Cho", affiliation: "Simple Solutions Psychotherapy" },
   { name: "Erica Lee", affiliation: "University of California Los Angeles (UCLA) Semel Institute", image: ericaleeImg },
 ];
