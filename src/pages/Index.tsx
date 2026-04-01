@@ -77,7 +77,7 @@ const Index = () => {
       <section id="why" className="relative py-16 md:py-24 bg-section-alt overflow-hidden">
         {/* Soft background image overlay */}
         <div 
-          className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-no-repeat opacity-10 filter grayscale"
+          className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-no-repeat opacity-25 filter grayscale"
           style={{ backgroundImage: `url(${figuresBackground})`, zIndex: 1 }}
         ></div>
 
