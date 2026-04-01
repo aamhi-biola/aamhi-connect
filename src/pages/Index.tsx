@@ -196,23 +196,23 @@ const Index = () => {
         <div className="container max-w-3xl">
           <SectionHeading title="Research" />
 
-          {/* New Research Introductory Text */}
           <p className="text-center text-muted-foreground mb-12 leading-relaxed">
             AAMHI programmatic activities are driven by culturally responsive research and program evaluation data or findings from peer-reviewed, scientific literature. To that end, we invite community members to collaborate with us to tackle important questions that will make an impact in our communities.
           </p>
 
           <div className="space-y-8">
             <div>
-              <h3 className="text-lg font-serif text-foreground mb-3">Publications</h3>
-              <ul className="space-y-2 text-muted-foreground list-disc list-inside">
-                <li>Publication entry placeholder</li>
-                <li>Publication entry placeholder</li>
-                <li>Publication entry placeholder</li>
-              </ul>
+              <h3 className="text-lg font-serif text-foreground mb-3">Publications & Conference Presentations</h3>
+              {/* Using a div and p tags with hanging indent classes instead of a bulleted list */}
+              <div className="space-y-4 text-muted-foreground text-left">
+                <p className="pl-8 -indent-8">
+                  Kwong, P., Dwiwardani, C., Kim, G. Y., Chin, E. G., Chang, N., & Cho, L. (2025). Mixed-Methods Needs Assessment of Mental Health Among Asian American Christians: A Pilot Study. <em className="italic">Journal of Psychology and Theology</em>, <em className="italic">53</em>(2), 157-175.
+                </p>
+              </div>
             </div>
 
             <div>
-              <h3 className="text-lg font-serif text-foreground mb-3">Conference Presentations</h3>
+              <h3 className="text-lg font-serif text-foreground mb-3">Dissertations & Masters Theses</h3>
               <ul className="space-y-2 text-muted-foreground list-disc list-inside">
                 <li>Conference presentation placeholder</li>
                 <li>Conference presentation placeholder</li>
