@@ -17,8 +17,8 @@ import figuresBackground from "../pictures/oneinfive.png";
 import conferenceImg from "../pictures/conference.png";
 
 // --- DIRECTOR PICTURE IMPORTS ---
-import carissaImg from "../pictures/carissa.jpg"; // 
-import eugeneImg from "../pictures/chin.jpg";   //
+import carissaImg from "../pictures/carissa.jpg"; 
+import eugeneImg from "../pictures/chin.jpg";   
 
 const biolaProfiles = [
   { name: "Priscilla Kwong", image: pKwongImg }, 
@@ -62,11 +62,19 @@ const Index = () => {
                 className="w-28 h-28 md:w-44 md:h-44 object-contain flex-shrink-0"
               />
 
-              {/* Title - "text-center md:text-left" keeps it looking good on all screens */}
-              <h1 className="text-5xl md:text-7xl font-serif text-foreground leading-[1.05] tracking-tight text-center md:text-left">
-                Asian American <br />
-                <span className="block">Mental Health Initiative</span>
-              </h1>
+              {/* Title & Subtitle Wrapper - Keeps them stacked next to the logo */}
+              <div className="flex flex-col items-center md:items-start">
+                <h1 className="text-5xl md:text-7xl font-serif text-foreground leading-[1.05] tracking-tight text-center md:text-left">
+                  Asian American <br />
+                  <span className="block">Mental Health Initiative</span>
+                </h1>
+                
+                {/* New Complementary Subtitle */}
+                <p className="mt-3 text-xl md:text-2xl text-muted-foreground font-medium tracking-wide text-center md:text-left">
+                  Rosemead School of Psychology
+                </p>
+              </div>
+
             </div>
           </div>
 
