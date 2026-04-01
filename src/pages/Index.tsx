@@ -210,7 +210,8 @@ const Index = () => {
                 </p>
                 <p className="pl-8 -indent-8">
                   Kwong, P., Dwiwardani, C., Kim, G. Y., Chin, E., Chang, N., Cho, L., & Wong, S. (2025, August 7-9). <em className="italic">Mixed-Methods Needs Assessment of Mental Health Among Asian American Christians: A Pilot Study</em>. 2025 American Psychological Association Conference – Division 36 Society for the Psychology of Religion and Spirituality, Denver, CO, United States.
-              </div>
+                </p>
+                </div>
             </div>
 
             <div>
