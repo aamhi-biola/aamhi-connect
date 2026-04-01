@@ -29,27 +29,27 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
 
-      {/* About / Description Section (Banner removed) */}
+      {/* About / Description Section */}
       <section id="about" className="py-16 md:py-24">
-        <div className="container max-w-4xl">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-center md:text-left">
+        <div className="container max-w-5xl">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
             
-            {/* Logo Image */}
+            {/* Logo Image - Scaled up slightly for the larger text */}
             <img 
               src={logoImage} 
               alt="AAMHI Logo" 
-              className="w-24 h-24 md:w-32 md:h-32 object-contain"
+              className="w-28 h-28 md:w-44 md:h-44 object-contain"
             />
 
-            {/* Title with Manual Line Breaks */}
-            <h1 className="text-4xl md:text-5xl font-serif text-foreground leading-tight">
+            {/* Title with Larger Font Sizes */}
+            <h1 className="text-5xl md:text-7xl font-serif text-foreground leading-[1.1] tracking-tight">
               Asian American <br />
-              <span className="block md:inline">Mental Health Initiative</span>
+              <span className="block">Mental Health Initiative</span>
             </h1>
           </div>
 
-          <div className="max-w-3xl mx-auto text-center mt-10">
-            <p className="text-lg text-muted-foreground leading-relaxed">
+          <div className="max-w-3xl mx-auto text-center mt-12">
+            <p className="text-xl text-muted-foreground leading-relaxed">
               AAMHI aims to cultivate a new generation of mental health professionals who are proficient in providing culturally responsive care, cutting-edge research, and impactful community-service.
             </p>
           </div>
