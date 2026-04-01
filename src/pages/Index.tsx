@@ -245,7 +245,6 @@ const Index = () => {
                 <p className="pl-8 -indent-8">
                   Miri, H., Chin, E., & Kim, C. (2026). <em className="italic">Korean American Help-Seeking Behavior as Seen Through the Theory of Reasoned Action: Moderation Analyses with Bicultural Self-Efficacy</em>. [Unpublished masters thesis]. Rosemead School of Psychology, Biola University.
                 </p>
-                </p>
               </div>
             </div>
           </div>
