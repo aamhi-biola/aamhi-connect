@@ -102,10 +102,20 @@ const Index = () => {
             </p>
           </div>
 
-          {/* Biola Counseling Center */}
+       {/* Biola Counseling Center */}
           <div className="mb-16">
-            {/* Reduced bottom margin to bring contact info closer */}
-            <h3 className="text-xl font-serif text-center mb-4 text-foreground">Biola Counseling Center</h3>
+            
+            {/* Updated heading to be a highly visible, clickable link */}
+            <h3 className="text-xl font-serif text-center mb-4">
+              <a 
+                href="https://www.biolacounselingcenter.org/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary underline decoration-2 underline-offset-4 hover:opacity-80 transition-opacity"
+              >
+                Biola Counseling Center
+              </a>
+            </h3>
             
             {/* Center Contact Information with icons */}
             <div className="flex flex-col items-center justify-center text-center mb-12 gap-2 text-muted-foreground">
