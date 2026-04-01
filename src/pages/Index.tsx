@@ -169,7 +169,7 @@ const Index = () => {
         <div className="container max-w-4xl">
           <SectionHeading title="Service" />
           <p className="text-center text-muted-foreground mb-8">
-            AAMHI is committed to serving the Asian American community through conferences, workshops, and outreach programs that promote mental health awareness and reduce stigma. Get in touch with us if you would like to collaborate!
+            AAMHI is committed to serving the Asian American community through conferences, workshops, and outreach programs that promote mental health awareness and reduce stigma. Get in touch with us if you would like to learn more!
           </p>
           
           {/* Interactive Conference Image Link */}
