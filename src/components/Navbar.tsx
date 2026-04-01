@@ -8,7 +8,7 @@ const navItems = [
   { label: "Service", href: "#service" },
   { label: "Research", href: "#research" },
   { label: "Gallery", href: "#gallery" },
-  { label: "Culture & Mental Health Lab", href: "https://example.com", external: true },
+  { label: "CMH Lab", href: "https://culturementalhealthlab-rosemead.github.io/cmhlab-rosemead/", external: true },
 ];
 
 const Navbar = () => {
