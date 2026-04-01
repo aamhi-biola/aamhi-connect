@@ -14,6 +14,7 @@ import dianaImg from "../pictures/diana.png";
 import ericaleeImg from "../pictures/ericalee.png";
 import terenceImg from "../pictures/terence.jpg";
 import figuresBackground from "../pictures/oneinfive.png";
+import conferenceImg from "../pictures/conference.jpg";
 
 const biolaProfiles = [
   { name: "Priscilla Kwong", image: pKwongImg }, 
@@ -170,9 +171,26 @@ const Index = () => {
           <p className="text-center text-muted-foreground mb-8">
             AAMHI is committed to serving the Asian American community through conferences, workshops, and outreach programs that promote mental health awareness and reduce stigma.
           </p>
-          <div className="bg-muted rounded-lg flex items-center justify-center h-64 md:h-80">
-            <p className="text-muted-foreground text-sm italic">Conference image placeholder</p>
+          
+          {/* Interactive Conference Image Link */}
+          <div className="flex flex-col items-center justify-center max-w-3xl mx-auto">
+            <a 
+              href="https://ourflourishing.org/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block w-full overflow-hidden rounded-lg shadow-md hover:shadow-xl hover:opacity-95 transition-all duration-300 transform hover:-translate-y-1 cursor-pointer"
+            >
+              <img 
+                src={conferenceImg} 
+                alt="AAMHI Conference details at ourflourishing.org" 
+                className="w-full h-auto object-cover"
+              />
+            </a>
+            <p className="mt-4 text-sm text-muted-foreground">
+              👉 <a href="https://ourflourishing.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">Click the image to view conference details at ourflourishing.org</a> 🌐
+            </p>
           </div>
+          
         </div>
       </section>
 
