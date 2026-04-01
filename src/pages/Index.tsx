@@ -112,7 +112,7 @@ const Index = () => {
           {/* New Training Summary */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              In <a href="https://www.biola.edu/rosemead" target="_blank" rel="noopener noreferrer" className="text-black font-bold font-sans uppercase tracking-widest hover:underline">Rosemead School of Psychology</a>, AAMHI offers a year-long case consultation course for doctoral graduate students in advanced practicum placements aimed at strengthening multicultural competence in assessment, therapy, and consultation. The course is offered every year, with alternating focus on (1) Multicultural Orientation-Foundational and (2) Asian American Mental Health-Advanced. The clinician trainees listed below are completing/have completed a full year of case consultation.
+              In <a href="https://www.biola.edu/rosemead" target="_blank" rel="noopener noreferrer" className="text-primary font-medium hover:underline">Rosemead School of Psychology</a>, AAMHI offers a year-long case consultation course for doctoral graduate students in advanced practicum placements aimed at strengthening multicultural competence in assessment, therapy, and consultation. The course is offered every year, with alternating focus on (1) Multicultural Orientation-Foundational and (2) Asian American Mental Health-Advanced. The clinician trainees listed below are completing/have completed a full year of case consultation.
             </p>
           </div>
 
