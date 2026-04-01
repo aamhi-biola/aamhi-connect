@@ -118,13 +118,13 @@ const Index = () => {
             </h3>
             
             {/* Center Contact Information with icons */}
-            <div className="flex flex-col items-center justify-center text-center mb-12 gap-2 text-muted-foreground">
+            <div className="flex flex-wrap items-center justify-center text-center mb-12 gap-6 md:gap-10 text-muted-foreground">
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-primary" /> {/* Phone icon */}
+                <Phone className="w-4 h-4 text-primary" />
                 <span>562-903-4800</span>
               </div>
               <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-primary" /> {/* Letter icon */}
+                <Mail className="w-4 h-4 text-primary" />
                 <a href="mailto:counseling.center@biola.edu" className="hover:text-primary hover:underline">
                   counseling.center@biola.edu
                 </a>
