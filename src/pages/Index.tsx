@@ -30,7 +30,7 @@ const Index = () => {
       {/* Banner */}
       <section className="w-full h-[280px] md:h-[400px]">
         <img 
-          src={`${import.meta.env.BASE_URL}banner.jpg`} 
+          src={`${import.meta.env.BASE_URL}AAMH-Banner-Rosemead-Transparent.png`} 
           alt="Asian American Mental Health Initiative Banner" 
           className="w-full h-full object-cover"
         />
