@@ -212,14 +212,28 @@ const Index = () => {
                   Kwong, P., Dwiwardani, C., Kim, G. Y., Chin, E., Chang, N., Cho, L., & Wong, S. (2025, August 7-9). <em className="italic">Mixed-Methods Needs Assessment of Mental Health Among Asian American Christians: A Pilot Study</em>. [Poster Presentation]. 2025 American Psychological Association Conference – Division 36 Society for the Psychology of Religion and Spirituality, Denver, CO, United States.
                 </p>
                 <p className="pl-8 -indent-8">
-                  Kim, C. Y., Dwiwardani, C., Chin, E., Kim, C. L., Kwong, P., Cho, L., Kim, G. Y., & Wong, S. (2026, April 9-10).  <em className="italic">Ministry Leader Perspectives: Mental Health Needs in Asian American Christian Community</em>. [Poster Presentation]. 2025 American Psychological Association Conference – Division 36 Society for the Psychology of Religion and Spirituality, Denver, CO, United States.
+                  Kim, C. Y., Dwiwardani, C., Chin, E., Kim, C. L., Kwong, P., Cho, L., Kim, G. Y., & Wong, S. (2026, April 9-10). <em className="italic">Ministry Leader Perspectives: Mental Health Needs in Asian American Christian Community</em>. [Poster Presentation]. 2025 American Psychological Association Conference – Division 36 Society for the Psychology of Religion and Spirituality, Denver, CO, United States.
                 </p>
-                
+                <p className="pl-8 -indent-8">
+                  Yuen. J. M., Chin, E., Wang, D. C., McMartin, J., Nettelhorst, S. C., Reynolds Jr., D. J., Krome, K. R. (2025, August 7-9). <em className="italic">Shaping Mental Health Help-Seeking in Asian Americans: An Experimental Study on Individualism, Collectivism, and Promotion-Prevention Messaging</em>. [Poster Presentation]. 2025 American Psychological Association Conference – Division 45 Society for the Psychological Study of Culture, Ethnicity and Race, Denver, CO, United States.
+                </p>
+                <p className="pl-8 -indent-8">
+                  Wong, S., Dwiwardani, C., & Chin, E. (2026, April 9-10). <em className="italic">Suicidality and Societal Factors among Asian Americans</em>. [Poster Presentation]. 2026 Our Flourishing, Our Faith: Navigating Rupture and Repair in Asian American Christian Communities, La Mirada, CA, United States. 
+                </p>
+                <p className="pl-8 -indent-8">
+                  Cho, L., Dwiwardani, C., & Kim, C. L. (2026, April 9-10). <em className="italic">Parenting Styles of Millennial Second-Generation Asian American Parents: A Qualitative Exploration of Experiences and Practices</em>. [Poster Presentation]. 2026 Our Flourishing, Our Faith: Navigating Rupture and Repair in Asian American Christian Communities, La Mirada, CA, United States. 
+                </p>
+                <p className="pl-8 -indent-8">
+                  Lo, J., Dwiwardani, C., & Kim, C. L. (2026, April 9-10). <em className="italic">Transgenerational Trauma, Gender Roles, and Mental Health Implications Among Hmong American Women </em>. [Poster Presentation]. 2026 Our Flourishing, Our Faith: Navigating Rupture and Repair in Asian American Christian Communities, La Mirada, CA, United States. 
+                </p>
+                <p className="pl-8 -indent-8">
+                  Lee, E., Dwiwardani, C., & Abouezzeddine, T. (2026, April 9-10). <em className="italic">The Impacts of Historical Trauma on the Parent-Child Relationship of First- and Second-Generation Korean Americans</em>. [Poster Presentation]. 2026 Our Flourishing, Our Faith: Navigating Rupture and Repair in Asian American Christian Communities, La Mirada, CA, United States. 
+                </p>
                 </div>
             </div>
 
             <div>
-              <h3 className="text-lg font-serif text-foreground mb-3">Dissertations & Masters Theses</h3>
+              <h3 className="text-lg font-serif text-foreground mb-3">Papers Under Review or in Preparation</h3>
               <ul className="space-y-2 text-muted-foreground list-disc list-inside">
                 <li>Conference presentation placeholder</li>
                 <li>Conference presentation placeholder</li>
