@@ -1,7 +1,7 @@
 interface ProfileCardProps {
   name: string;
   affiliation?: string;
-  imageUrl?: string;
+  image?: string; // <-- Changed from imageUrl to image
 }
 
 const ProfileCard = ({ name, affiliation, imageUrl }: ProfileCardProps) => (
