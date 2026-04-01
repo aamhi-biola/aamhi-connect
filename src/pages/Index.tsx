@@ -233,12 +233,20 @@ const Index = () => {
             </div>
 
             <div>
-              <h3 className="text-lg font-serif text-foreground mb-3">Papers Under Review or in Preparation</h3>
-              <ul className="space-y-2 text-muted-foreground list-disc list-inside">
-                <li>Conference presentation placeholder</li>
-                <li>Conference presentation placeholder</li>
-                <li>Conference presentation placeholder</li>
-              </ul>
+              <h3 className="text-lg font-serif text-foreground mb-3">Papers in Preparation</h3>
+              {/* Updated to match the hanging indent style of Publications */}
+              <div className="space-y-4 text-muted-foreground text-left">
+                <p className="pl-8 -indent-8">
+                  Yuen, J. M., Chin, E., Wang, D. C., McMartin, J., Nettelhorst, S. C., Reynolds, D. J. Jr., Krome, L. R. (2026). <em className="italic">A Quasi-Experimental Study with Asian Americans: Self-Construal and Messaging Effects on Mental Health Help-Seeking Attitudes, Intentions, and Treatment Credibility </em>. [Manuscript submitted for publication]. Rosemead School of Psychology, Biola University.
+                </p>
+                <p className="pl-8 -indent-8">
+                  Chen, T., Chin, E., & Wang, D. (2026). <em className="italic">A Moderated Mediation Model of Asian Values Predicting Professional Help-Seeking: Exploring God-Centered Self-Esteem as a Protective Factor Against Stigma</em>. [Unpublished masters thesis]. Rosemead School of Psychology, Biola University.
+                </p>
+                <p className="pl-8 -indent-8">
+                  Miri, H., Chin, E., & Kim, C. (2026). <em className="italic">Korean American Help-Seeking Behavior as Seen Through the Theory of Reasoned Action: Moderation Analyses with Bicultural Self-Efficacy</em>. [Unpublished masters thesis]. Rosemead School of Psychology, Biola University.
+                </p>
+                </p>
+              </div>
             </div>
           </div>
         </div>
