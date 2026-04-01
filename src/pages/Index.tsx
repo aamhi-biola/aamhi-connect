@@ -22,8 +22,8 @@ import eugeneImg from "../pictures/chin.jpg";
 
 const biolaProfiles = [
   { name: "Priscilla Kwong", image: pKwongImg }, 
-  { name: "Justine Lo", image: justineImg },// <--- Added Justine's image
-  { name: "Lydia Cho", image: lydiaImg },// <--- Added Lydia's image
+  { name: "Justine Lo", image: justineImg },
+  { name: "Lydia Cho", image: lydiaImg },
 ];
 
 const greaterLAProfiles = [
@@ -69,8 +69,8 @@ const Index = () => {
                   <span className="block">Mental Health Initiative</span>
                 </h1>
                 
-                {/* New Complementary Subtitle */}
-                <p className="mt-3 text-xl md:text-2xl text-muted-foreground font-medium tracking-wide text-center md:text-left">
+                {/* Updated Subtitle: Black and Bolded */}
+                <p className="mt-3 text-xl md:text-2xl text-black font-bold tracking-wide text-center md:text-left">
                   Rosemead School of Psychology
                 </p>
               </div>
@@ -112,7 +112,7 @@ const Index = () => {
           {/* New Training Summary */}
           <div className="max-w-4xl mx-auto text-center mb-16">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              In <a href="https://www.biola.edu/rosemead" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">Rosemead School of Psychology</a>, AAMHI offers a year-long case consultation course for doctoral graduate students in advanced practicum placements aimed at strengthening multicultural competence in assessment, therapy, and consultation. The course is offered every year, with alternating focus on (1) Multicultural Orientation-Foundational and (2) Asian American Mental Health-Advanced. The clinician trainees listed below are completing/have completed a full year of case consultation.
+              In <a href="https://www.biola.edu/rosemead" target="_blank" rel="noopener noreferrer" className="text-black font-bold hover:underline">Rosemead School of Psychology</a>, AAMHI offers a year-long case consultation course for doctoral graduate students in advanced practicum placements aimed at strengthening multicultural competence in assessment, therapy, and consultation. The course is offered every year, with alternating focus on (1) Multicultural Orientation-Foundational and (2) Asian American Mental Health-Advanced. The clinician trainees listed below are completing/have completed a full year of case consultation.
             </p>
           </div>
 
@@ -215,7 +215,6 @@ const Index = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-lg font-serif text-foreground mb-3">Publications & Conference Presentations</h3>
-              {/* Using a div and p tags with hanging indent classes instead of a bulleted list */}
               <div className="space-y-4 text-muted-foreground text-left">
                 <p className="pl-8 -indent-8">
                   Kwong, P., Dwiwardani, C., Kim, G. Y., Chin, E. G., Chang, N., & Cho, L. (2025). Mixed-Methods Needs Assessment of Mental Health Among Asian American Christians: A Pilot Study. <em className="italic">Journal of Psychology and Theology</em>, <em className="italic">53</em>(2), 157-175.
@@ -246,7 +245,6 @@ const Index = () => {
 
             <div>
               <h3 className="text-lg font-serif text-foreground mb-3">Papers in Preparation</h3>
-              {/* Updated to match the hanging indent style of Publications */}
               <div className="space-y-4 text-muted-foreground text-left">
                 <p className="pl-8 -indent-8">
                   Yuen, J. M., Chin, E., Wang, D. C., McMartin, J., Nettelhorst, S. C., Reynolds, D. J. Jr., Krome, L. R. (2026). <em className="italic">A Quasi-Experimental Study with Asian Americans: Self-Construal and Messaging Effects on Mental Health Help-Seeking Attitudes, Intentions, and Treatment Credibility </em>. [Manuscript submitted for publication]. Rosemead School of Psychology, Biola University.
@@ -281,14 +279,12 @@ const Index = () => {
               
               {/* Dr. Dwiwardani Contact */}
               <div className="flex flex-col items-center text-center">
-                {/* Photo added here, styled as a perfect circle */}
                 <img 
                   src={carissaImg} 
                   alt="Dr. Carissa Dwiwardani" 
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-muted mb-6 shadow-md"
                 />
                 
-                {/* Name and email layout updated to stack vertically below the photo */}
                 <p className="font-medium text-lg text-foreground mb-1">Dr. Carissa Dwiwardani</p>
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <Mail className="w-4 h-4 text-primary/70 flex-shrink-0" />
@@ -300,14 +296,12 @@ const Index = () => {
               
               {/* Dr. Chin Contact */}
               <div className="flex flex-col items-center text-center">
-                {/* Photo added here, styled as a perfect circle */}
                 <img 
                   src={eugeneImg} 
                   alt="Dr. Eu Gene Chin" 
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-muted mb-6 shadow-md"
                 />
                 
-                {/* Name and email layout updated to stack vertically below the photo */}
                 <p className="font-medium text-lg text-foreground mb-1">Dr. Eu Gene Chin</p>
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <Mail className="w-4 h-4 text-primary/70 flex-shrink-0" />
