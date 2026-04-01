@@ -4,8 +4,11 @@ import ProfileCard from "@/components/ProfileCard";
 // Import your logo from the src folder
 import logoImage from "../logo.png"; 
 
+// --- ADD YOUR PICTURE IMPORTS HERE ---
+import pKwongImg from "../pictures/PKwong.JPG";
+
 const biolaProfiles = [
-  { name: "Priscilla Kwong" },
+  { name: "Priscilla Kwong", image: pKwongImg }, 
   { name: "Justine Lo" },
   { name: "Lydia Cho" },
 ];
