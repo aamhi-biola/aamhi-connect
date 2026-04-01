@@ -57,7 +57,7 @@ const Index = () => {
           {/* Description Text Below */}
           <div className="max-w-3xl mx-auto text-center mt-12">
             <p className="text-xl text-muted-foreground leading-relaxed">
-              AAMHI aims to cultivate a new generation of mental health professionals who are proficient in providing culturally responsive care, cutting-edge research, and impactful community-service.
+              AAMHI aims to cultivate a new generation of mental health professionals who are proficient in providing faith-integrated culturally responsive care, cutting-edge research, and impactful community-service.
             </p>
           </div>
         </div>
