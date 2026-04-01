@@ -259,7 +259,7 @@ const Index = () => {
           <div className="bg-background rounded-2xl p-8 md:p-12 shadow-sm border border-border text-center">
             {/* You can replace this paragraph with Option 2 or Option 3 if you prefer! */}
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              Despite the pervasive model minority myth, the well-being and mental health needs of Asian and Asian American communities are too often rendered invisible. AAMHI is dedicated to changing this through culturally responsive care, clinical training, and targeted research. Your partnership makes this work possible.
+              Despite the pervasive model minority myth, the well-being and mental health needs of Asian and Asian American communities are too often rendered invisible. AAMHI is dedicated to changing this problem through culturally responsive care, clinical training, and targeted research. Your partnership makes this work possible.
             </p>
             
             <h4 className="font-serif text-lg text-foreground mb-6">
