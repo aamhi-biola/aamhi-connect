@@ -28,8 +28,12 @@ const Index = () => {
       <Navbar />
 
       {/* Banner */}
-      <section className="w-full bg-muted flex items-center justify-center min-h-[280px] md:min-h-[400px]">
-        <p className="text-muted-foreground text-sm italic">Banner image placeholder — replace with your image</p>
+      <section className="w-full h-[280px] md:h-[400px]">
+        <img 
+          src="/banner.png" 
+          alt="Asian American Mental Health Initiative Banner" 
+          className="w-full h-full object-cover"
+        />
       </section>
 
       {/* About / Description */}
