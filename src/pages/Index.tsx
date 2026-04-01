@@ -186,9 +186,6 @@ const Index = () => {
                 className="w-full h-auto object-cover"
               />
             </a>
-            <p className="mt-4 text-sm text-muted-foreground">
-              👉 <a href="https://ourflourishing.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium">Click the image to view conference details at ourflourishing.org</a> 🌐
-            </p>
           </div>
           
         </div>
