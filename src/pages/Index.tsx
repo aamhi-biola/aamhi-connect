@@ -152,20 +152,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Gallery */}
-      <section id="gallery" className="py-16 md:py-24 bg-section-alt">
-        <div className="container">
-          <SectionHeading title="Gallery" />
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <div key={i} className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                <span className="text-muted-foreground text-xs">Photo {i + 1}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-nav text-nav-foreground py-8">
         <div className="container text-center text-sm opacity-70">
