@@ -104,7 +104,23 @@ const Index = () => {
 
           {/* Biola Counseling Center */}
           <div className="mb-16">
-            <h3 className="text-xl font-serif text-center mb-8 text-foreground">Biola Counseling Center</h3>
+            {/* Reduced bottom margin to bring contact info closer */}
+            <h3 className="text-xl font-serif text-center mb-4 text-foreground">Biola Counseling Center</h3>
+            
+            {/* Center Contact Information with icons */}
+            <div className="flex flex-col items-center justify-center text-center mb-12 gap-2 text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <Phone className="w-4 h-4 text-primary" /> {/* Phone icon */}
+                <span>562-903-4800</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Mail className="w-4 h-4 text-primary" /> {/* Letter icon */}
+                <a href="mailto:counseling.center@biola.edu" className="hover:text-primary hover:underline">
+                  counseling.center@biola.edu
+                </a>
+              </div>
+            </div>
+
             <div className="flex flex-wrap justify-center gap-10">
               {biolaProfiles.map((p) => (
                 <ProfileCard key={p.name} {...p} />
