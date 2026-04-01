@@ -251,6 +251,53 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Support / Donate */}
+      <section id="support" className="py-16 md:py-24 bg-section-alt">
+        <div className="container max-w-4xl">
+          <SectionHeading title="Partner With Us" />
+          
+          <div className="bg-background rounded-2xl p-8 md:p-12 shadow-sm border border-border text-center">
+            {/* You can replace this paragraph with Option 2 or Option 3 if you prefer! */}
+            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
+              Despite the pervasive model minority myth, the psychological and mental health needs of Asian and Asian American communities are too often rendered invisible. AAMHI is dedicated to changing this narrative through culturally responsive care, clinical training, and targeted research. Your partnership makes this work possible.
+            </p>
+            
+            <h4 className="font-serif text-lg text-foreground mb-6">
+              To support AAMHI initiatives or make a donation, please contact:
+            </h4>
+            
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+              {/* Dr. Dwiwardani Contact */}
+              <div className="flex items-center gap-3 text-muted-foreground">
+                <div className="bg-primary/10 p-3 rounded-full flex-shrink-0">
+                  <Mail className="w-5 h-5 text-primary" />
+                </div>
+                <div className="text-left">
+                  <p className="font-medium text-foreground">Dr. Carissa Dwiwardani</p>
+                  <a href="mailto:carissa.dwiwardani@biola.edu" className="hover:text-primary hover:underline text-sm transition-colors">
+                    carissa.dwiwardani@biola.edu
+                  </a>
+                </div>
+              </div>
+              
+              {/* Dr. Chin Contact */}
+              <div className="flex items-center gap-3 text-muted-foreground">
+                <div className="bg-primary/10 p-3 rounded-full flex-shrink-0">
+                  <Mail className="w-5 h-5 text-primary" />
+                </div>
+                <div className="text-left">
+                  <p className="font-medium text-foreground">Dr. Eu Gene Chin</p>
+                  <a href="mailto:eu.gene.chin@biola.edu" className="hover:text-primary hover:underline text-sm transition-colors">
+                    eu.gene.chin@biola.edu
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-nav text-nav-foreground py-8">
         <div className="container text-center text-sm opacity-70">
