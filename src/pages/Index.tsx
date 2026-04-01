@@ -14,7 +14,7 @@ import dianaImg from "../pictures/diana.png";
 import ericaleeImg from "../pictures/ericalee.png";
 import terenceImg from "../pictures/terence.jpg";
 import figuresBackground from "../pictures/oneinfive.png";
-import conferenceImg from "../pictures/conference.jpg";
+import conferenceImg from "../pictures/conference.png";
 
 const biolaProfiles = [
   { name: "Priscilla Kwong", image: pKwongImg }, 
