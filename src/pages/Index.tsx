@@ -5,7 +5,7 @@ import ProfileCard from "@/components/ProfileCard";
 import logoImage from "../logo.png"; 
 
 // --- ADD YOUR PICTURE IMPORTS HERE ---
-import pKwongImg from "../pictures/priscilla.jpg";
+import pKwongImg from "../pictures/priscilla.png";
 import justineImg from "../pictures/justine.jpg";
 import lydiaImg from "../pictures/lydiacho.jpg";
 import chriskimImg from "../pictures/chriskim.png";
