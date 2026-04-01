@@ -31,24 +31,30 @@ const Index = () => {
 
     {/* About / Description Section */}
       <section id="about" className="py-16 md:py-24">
-        <div className="container max-w-6xl">
-          {/* Using gap-2 to keep them close but prevent overlapping */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-3 text-center md:text-left">
+        <div className="container">
+          
+          {/* This outer div ensures the whole block is centered on the page */}
+          <div className="flex flex-col items-center justify-center">
             
-            {/* Logo Image */}
-            <img 
-              src={logoImage} 
-              alt="AAMHI Logo" 
-              className="w-28 h-28 md:w-44 md:h-44 object-contain flex-shrink-0"
-            />
+            {/* This inner div groups the logo and text tightly together */}
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 max-w-fit">
+              
+              {/* Logo Image */}
+              <img 
+                src={logoImage} 
+                alt="AAMHI Logo" 
+                className="w-28 h-28 md:w-44 md:h-44 object-contain flex-shrink-0"
+              />
 
-            {/* Title - Removed negative margin, added flex-1 to give it its own space */}
-            <h1 className="text-5xl md:text-7xl font-serif text-foreground leading-[1.05] tracking-tight flex-1">
-              Asian American <br />
-              <span className="block">Mental Health Initiative</span>
-            </h1>
+              {/* Title - "text-center md:text-left" keeps it looking good on all screens */}
+              <h1 className="text-5xl md:text-7xl font-serif text-foreground leading-[1.05] tracking-tight text-center md:text-left">
+                Asian American <br />
+                <span className="block">Mental Health Initiative</span>
+              </h1>
+            </div>
           </div>
 
+          {/* Description Text Below */}
           <div className="max-w-3xl mx-auto text-center mt-12">
             <p className="text-xl text-muted-foreground leading-relaxed">
               AAMHI aims to cultivate a new generation of mental health professionals who are proficient in providing culturally responsive care, cutting-edge research, and impactful community-service.
