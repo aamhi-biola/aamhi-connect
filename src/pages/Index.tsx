@@ -6,25 +6,31 @@ import logoImage from "../logo.png";
 
 // --- ADD YOUR PICTURE IMPORTS HERE ---
 import pKwongImg from "../pictures/priscilla.jpg";
+import justineImg from "../pictures/justine.jpg";
+import lydiaImg from "../pictures/lydiacho.jpg";
+import chriskimImg from "../pictures/chriskim.png";
+import irisImg from "../pictures/iris.jpg";
+import ericaleeImg from "../pictures/ericalee.png";
+import terenceImg from "../pictures/terence.jpg";
 
 const biolaProfiles = [
   { name: "Priscilla Kwong", image: pKwongImg }, 
-  { name: "Justine Lo" },
-  { name: "Lydia Cho" },
+  { name: "Justine Lo", image: justineImg },// <--- Added Justine's image
+  { name: "Lydia Cho", image: lydiaImg },// <--- Added Lydia's image
 ];
 
 const greaterLAProfiles = [
-  { name: "Christina Kim", affiliation: "Fuller Psychological & Family Services" },
-  { name: "Iris Yam", affiliation: "Hoag Memorial Hospital Presbyterian" },
+  { name: "Christina Kim", affiliation: "Fuller Psychological & Family Services", image: chriskimImg },
+  { name: "Iris Yam", affiliation: "Hoag Memorial Hospital Presbyterian", image: irisImg },
   { name: "Diana Nguyen", affiliation: "New Horizons Community Wellness Center" },
   { name: "Bella Cho", affiliation: "Simple Solutions Psychotherapy" },
-  { name: "Erica Lee", affiliation: "University of California Los Angeles (UCLA) Semel Institute" },
+  { name: "Erica Lee", affiliation: "University of California Los Angeles (UCLA) Semel Institute", image: ericaleeImg },
 ];
 
 const alumniProfiles = [
   { name: "Joo Young Ok", affiliation: "Access Institute for Psychological Services" },
   { name: "Rong Lin", affiliation: "Pacific Clinics: Asian Pacific Family Center" },
-  { name: "Terence Chen", affiliation: "University of San Francisco" },
+  { name: "Terence Chen", affiliation: "University of San Francisco", image: terenceImg },
 ];
 
 const Index = () => {
