@@ -197,7 +197,7 @@ const Index = () => {
           <SectionHeading title="Research" />
 
           <p className="text-center text-muted-foreground mb-12 leading-relaxed">
-            AAMHI programmatic activities are driven by culturally responsive research and program evaluation data or findings from peer-reviewed, scientific literature. To that end, we invite community members to collaborate with us to tackle important questions that will make an impact in our communities.
+            AAMHI programmatic activities are driven by culturally responsive research and program evaluation data or findings from peer-reviewed, scientific literature. To that end, we invite community members to collaborate with us to tackle important questions that will make a difference. 
           </p>
 
           <div className="space-y-8">
@@ -208,6 +208,8 @@ const Index = () => {
                 <p className="pl-8 -indent-8">
                   Kwong, P., Dwiwardani, C., Kim, G. Y., Chin, E. G., Chang, N., & Cho, L. (2025). Mixed-Methods Needs Assessment of Mental Health Among Asian American Christians: A Pilot Study. <em className="italic">Journal of Psychology and Theology</em>, <em className="italic">53</em>(2), 157-175.
                 </p>
+                <p className="pl-8 -indent-8">
+                  Kwong, P., Dwiwardani, C., Kim, G. Y., Chin, E., Chang, N., Cho, L., & Wong, S. (2025, August 7-9). <em className="italic">Mixed-Methods Needs Assessment of Mental Health Among Asian American Christians: A Pilot Study</em>. 2025 American Psychological Association Conference – Division 36 Society for the Psychology of Religion and Spirituality, Denver, CO, United States.
               </div>
             </div>
 
