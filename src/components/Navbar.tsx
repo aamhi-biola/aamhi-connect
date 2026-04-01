@@ -7,7 +7,6 @@ const navItems = [
   { label: "Training", href: "#training" },
   { label: "Service", href: "#service" },
   { label: "Research", href: "#research" },
-  { label: "Gallery", href: "#gallery" },
   { label: "CMH Lab", href: "https://culturementalhealthlab-rosemead.github.io/cmhlab-rosemead/", external: true },
 ];
 
