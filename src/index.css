@@ -99,3 +99,10 @@
     font-family: 'DM Serif Display', serif;
   }
 }
+
+/* Enable smooth scrolling for all anchor links */
+html {
+  scroll-behavior: smooth;
+  /* This prevents the sticky navbar from covering the section titles! */
+  scroll-padding-top: 5rem; 
+}
