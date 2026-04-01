@@ -209,8 +209,12 @@ const Index = () => {
                   Kwong, P., Dwiwardani, C., Kim, G. Y., Chin, E. G., Chang, N., & Cho, L. (2025). Mixed-Methods Needs Assessment of Mental Health Among Asian American Christians: A Pilot Study. <em className="italic">Journal of Psychology and Theology</em>, <em className="italic">53</em>(2), 157-175.
                 </p>
                 <p className="pl-8 -indent-8">
-                  Kwong, P., Dwiwardani, C., Kim, G. Y., Chin, E., Chang, N., Cho, L., & Wong, S. (2025, August 7-9). <em className="italic">Mixed-Methods Needs Assessment of Mental Health Among Asian American Christians: A Pilot Study</em>. 2025 American Psychological Association Conference – Division 36 Society for the Psychology of Religion and Spirituality, Denver, CO, United States.
+                  Kwong, P., Dwiwardani, C., Kim, G. Y., Chin, E., Chang, N., Cho, L., & Wong, S. (2025, August 7-9). <em className="italic">Mixed-Methods Needs Assessment of Mental Health Among Asian American Christians: A Pilot Study</em>. [Poster Presentation]. 2025 American Psychological Association Conference – Division 36 Society for the Psychology of Religion and Spirituality, Denver, CO, United States.
                 </p>
+                <p className="pl-8 -indent-8">
+                  Kim, C. Y., Dwiwardani, C., Chin, E., Kim, C. L., Kwong, P., Cho, L., Kim, G. Y., & Wong, S. (2026, April 9-10).  <em className="italic">Ministry Leader Perspectives: Mental Health Needs in Asian American Christian Community</em>. [Poster Presentation]. 2025 American Psychological Association Conference – Division 36 Society for the Psychology of Religion and Spirituality, Denver, CO, United States.
+                </p>
+                
                 </div>
             </div>
 
