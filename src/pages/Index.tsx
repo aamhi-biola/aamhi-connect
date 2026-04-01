@@ -169,7 +169,7 @@ const Index = () => {
         <div className="container max-w-4xl">
           <SectionHeading title="Service" />
           <p className="text-center text-muted-foreground mb-8">
-            AAMHI is committed to serving the Asian American community through conferences, workshops, and outreach programs that promote mental health awareness and reduce stigma. Please contact Dr. Dwiwardani (carissa.dwiwardani@biola.edu) or Dr. Chin (eu.gene.chin@biola.edu) if you would like to learn more. 
+            AAMHI is committed to serving the Asian American community through conferences, workshops, and outreach programs that promote mental health awareness and reduce stigma. Get in touch with us if you would like to collaborate!
           </p>
           
           {/* Interactive Conference Image Link */}
@@ -197,7 +197,7 @@ const Index = () => {
           <SectionHeading title="Research" />
 
           <p className="text-center text-muted-foreground mb-12 leading-relaxed">
-            AAMHI programmatic activities are driven by culturally responsive research and program evaluation data or findings from peer-reviewed, scientific literature. To that end, we invite community members to collaborate with us to tackle important questions that will make a difference. 
+            AAMHI programmatic activities are driven by culturally responsive research and program evaluation data or findings from peer-reviewed, scientific literature. Help us answer key questions for community impact. 
           </p>
 
           <div className="space-y-8">
