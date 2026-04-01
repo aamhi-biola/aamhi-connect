@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import SectionHeading from "@/components/SectionHeading";
 import ProfileCard from "@/components/ProfileCard";
-// Import your logo from the src folder
+import { Phone, Mail } from "lucide-react"; 
 import logoImage from "../logo.png"; 
 
 // --- ADD YOUR PICTURE IMPORTS HERE ---
