@@ -197,7 +197,7 @@ const Index = () => {
           <SectionHeading title="Research" />
 
           <p className="text-center text-muted-foreground mb-12 leading-relaxed">
-            AAMHI activities are driven by culturally responsive research, program evaluation data, and/or findings from peer-reviewed, scientific literature. Help us answer key questions for community impact. 
+            AAMHI activities are driven by culturally responsive research, program evaluation data, and/or findings from peer-reviewed literature. Help us answer key questions for community impact. 
           </p>
 
           <div className="space-y-8">
