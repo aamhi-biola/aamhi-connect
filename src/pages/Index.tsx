@@ -16,6 +16,10 @@ import terenceImg from "../pictures/terence.jpg";
 import figuresBackground from "../pictures/oneinfive.png";
 import conferenceImg from "../pictures/conference.png";
 
+// --- DIRECTOR PICTURE IMPORTS ---
+import carissaImg from "../pictures/carissa.jpg"; // 
+import eugeneImg from "../pictures/chin.jpg";   //
+
 const biolaProfiles = [
   { name: "Priscilla Kwong", image: pKwongImg }, 
   { name: "Justine Lo", image: justineImg },// <--- Added Justine's image
@@ -257,23 +261,29 @@ const Index = () => {
           <SectionHeading title="Partner With Us" />
           
           <div className="bg-background rounded-2xl p-8 md:p-12 shadow-sm border border-border text-center">
-            {/* You can replace this paragraph with Option 2 or Option 3 if you prefer! */}
-            <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              Despite the pervasive model minority myth, the well-being and mental health needs of Asian and Asian American communities are too often rendered invisible. AAMHI is dedicated to changing this problem through culturally responsive care, clinical training, and targeted research. Your partnership makes this work possible.
+            <p className="text-lg text-muted-foreground leading-relaxed mb-12">
+              Despite the pervasive model minority myth, the psychological and mental health needs of Asian and Asian American communities are too often rendered invisible. AAMHI is dedicated to changing this narrative through culturally responsive care, clinical training, and targeted research. Your partnership makes this work possible.
             </p>
             
-            <h4 className="font-serif text-lg text-foreground mb-6">
+            <h4 className="font-serif text-lg text-foreground mb-10">
               To support AAMHI initiatives or make a donation, please contact:
             </h4>
             
-            <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-24">
+              
               {/* Dr. Dwiwardani Contact */}
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <div className="bg-primary/10 p-3 rounded-full flex-shrink-0">
-                  <Mail className="w-5 h-5 text-primary" />
-                </div>
-                <div className="text-left">
-                  <p className="font-medium text-foreground">Dr. Carissa Dwiwardani</p>
+              <div className="flex flex-col items-center text-center">
+                {/* Photo added here, styled as a perfect circle */}
+                <img 
+                  src={carissaImg} 
+                  alt="Dr. Carissa Dwiwardani" 
+                  className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-muted mb-6 shadow-md"
+                />
+                
+                {/* Name and email layout updated to stack vertically below the photo */}
+                <p className="font-medium text-lg text-foreground mb-1">Dr. Carissa Dwiwardani</p>
+                <div className="flex items-center gap-2 text-muted-foreground">
+                  <Mail className="w-4 h-4 text-primary/70 flex-shrink-0" />
                   <a href="mailto:carissa.dwiwardani@biola.edu" className="hover:text-primary hover:underline text-sm transition-colors">
                     carissa.dwiwardani@biola.edu
                   </a>
@@ -281,12 +291,18 @@ const Index = () => {
               </div>
               
               {/* Dr. Chin Contact */}
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <div className="bg-primary/10 p-3 rounded-full flex-shrink-0">
-                  <Mail className="w-5 h-5 text-primary" />
-                </div>
-                <div className="text-left">
-                  <p className="font-medium text-foreground">Dr. Eu Gene Chin</p>
+              <div className="flex flex-col items-center text-center">
+                {/* Photo added here, styled as a perfect circle */}
+                <img 
+                  src={eugeneImg} 
+                  alt="Dr. Eu Gene Chin" 
+                  className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-muted mb-6 shadow-md"
+                />
+                
+                {/* Name and email layout updated to stack vertically below the photo */}
+                <p className="font-medium text-lg text-foreground mb-1">Dr. Eu Gene Chin</p>
+                <div className="flex items-center gap-2 text-muted-foreground">
+                  <Mail className="w-4 h-4 text-primary/70 flex-shrink-0" />
                   <a href="mailto:eu.gene.chin@biola.edu" className="hover:text-primary hover:underline text-sm transition-colors">
                     eu.gene.chin@biola.edu
                   </a>
