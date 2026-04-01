@@ -87,6 +87,13 @@ const Index = () => {
         <div className="container">
           <SectionHeading title="Training" />
 
+          {/* New Training Summary */}
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              The AAMHI initiative offers a year-long case consultation course for graduate students in advanced practicum placements aimed at strengthening multicultural competence in assessment, therapy, and consultation. The course is offered every year, with alternating focus on (1) Multicultural Orientation-Foundational and (2) Asian American Mental Health-Advanced. The clinician trainees listed below are completing/have completed a full year of case consultation.
+            </p>
+          </div>
+
           {/* Biola Counseling Center */}
           <div className="mb-16">
             <h3 className="text-xl font-serif text-center mb-8 text-foreground">Biola Counseling Center</h3>
