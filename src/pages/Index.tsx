@@ -118,7 +118,7 @@ const Index = () => {
             </h3>
             
             {/* Center Contact Information with icons */}
-            <div className="flex flex-wrap items-center justify-center text-center mb-12 gap-6 md:gap-10 text-muted-foreground">
+            <div className="flex flex-wrap items-center justify-center text-center mb-12 gap-3 md:gap-5 text-muted-foreground">
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary" />
                 <span>562-903-4800</span>
