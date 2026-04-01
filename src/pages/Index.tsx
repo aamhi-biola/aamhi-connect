@@ -23,7 +23,7 @@ const biolaProfiles = [
 ];
 
 const greaterLAProfiles = [
-  { name: "Christina Kim", affiliation: "Fuller Psychological & Family Services", image: chriskimImg },
+  { name: "Christine Kim", affiliation: "Fuller Psychological & Family Services", image: chriskimImg },
   { name: "Iris Yam", affiliation: "Hoag Memorial Hospital Presbyterian", image: irisImg },
   { name: "Diana Nguyen", affiliation: "New Horizons Community Wellness Center", image: dianaImg },
   { name: "Bella Cho", affiliation: "Simple Solutions Psychotherapy" },
