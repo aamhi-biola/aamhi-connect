@@ -12,6 +12,7 @@ import chriskimImg from "../pictures/chriskim.png";
 import irisImg from "../pictures/iris.jpg";
 import ericaleeImg from "../pictures/ericalee.png";
 import terenceImg from "../pictures/terence.jpg";
+import figuresBackground from "../pictures/oneinfive.png";
 
 const biolaProfiles = [
   { name: "Priscilla Kwong", image: pKwongImg }, 
@@ -72,9 +73,16 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Why AAMHI */}
-      <section id="why" className="py-16 md:py-24 bg-section-alt">
-        <div className="container max-w-3xl">
+{/* Why AAMHI - Integrated background image here */}
+      <section id="why" className="relative py-16 md:py-24 bg-section-alt overflow-hidden">
+        {/* Soft background image overlay */}
+        <div 
+          className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-no-repeat opacity-10 filter grayscale"
+          style={{ backgroundImage: `url(${figuresBackground})`, zIndex: 1 }}
+        ></div>
+
+        {/* Content wrapper with higher z-index for readability */}
+        <div className="container max-w-3xl relative" style={{ zIndex: 2 }}>
           <SectionHeading title="Why the Need for AAMHI" />
           <p className="text-center text-muted-foreground">
             Compared to any other racial-ethnic groups, Asian-Americans are the least likely to access mental health care (Alegria, 2008; Derr, 2016; SAMHSA, 2019). This is true even when they endorse mental health needs, have serious psychological distress and experience a major depressive episode (Yang et al., 2020). In fact, only one out of five Asian adults with a mental illness received mental health care. Structural barriers include cost, language barriers and lack of cultural competency from providers, and cultural barriers include stigma and shame associated with seeking mental health care (APA, 2020; Eng & TenElshof, 2020). These problems point to the need for culturally specific outreach and mental health services tailored to Asian/Asian American (AAA) communities.
