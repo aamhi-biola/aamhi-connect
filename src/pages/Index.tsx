@@ -31,19 +31,19 @@ const Index = () => {
 
      {/* About / Description Section */}
       <section id="about" className="py-16 md:py-24">
-        <div className="container max-w-5xl">
-          {/* Reduced gap from 8 to 3 for a tighter look */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 text-center md:text-left">
+        <div className="container max-w-6xl">
+          {/* We use flex-start and remove the wide gap */}
+          <div className="flex flex-col md:flex-row items-center justify-center text-center md:text-left">
             
-            {/* Logo Image */}
+            {/* Logo Image - No extra margins */}
             <img 
               src={logoImage} 
               alt="AAMHI Logo" 
               className="w-28 h-28 md:w-44 md:h-44 object-contain"
             />
 
-            {/* Title - Adjusted margin-left (ml) to ensure exact spacing */}
-            <h1 className="text-5xl md:text-7xl font-serif text-foreground leading-[1.1] tracking-tight md:ml-2">
+            {/* Title - Using a negative margin-left (md:-ml-4) to pull it TOWARD the logo */}
+            <h1 className="text-5xl md:text-7xl font-serif text-foreground leading-[1.05] tracking-tight md:-ml-6">
               Asian American <br />
               <span className="block">Mental Health Initiative</span>
             </h1>
