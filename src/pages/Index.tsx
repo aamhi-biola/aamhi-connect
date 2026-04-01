@@ -29,21 +29,21 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
 
-     {/* About / Description Section */}
+    {/* About / Description Section */}
       <section id="about" className="py-16 md:py-24">
         <div className="container max-w-6xl">
-          {/* We use flex-start and remove the wide gap */}
-          <div className="flex flex-col md:flex-row items-center justify-center text-center md:text-left">
+          {/* Using gap-2 to keep them close but prevent overlapping */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-3 text-center md:text-left">
             
-            {/* Logo Image - No extra margins */}
+            {/* Logo Image */}
             <img 
               src={logoImage} 
               alt="AAMHI Logo" 
-              className="w-28 h-28 md:w-44 md:h-44 object-contain"
+              className="w-28 h-28 md:w-44 md:h-44 object-contain flex-shrink-0"
             />
 
-            {/* Title - Using a negative margin-left (md:-ml-4) to pull it TOWARD the logo */}
-            <h1 className="text-5xl md:text-7xl font-serif text-foreground leading-[1.05] tracking-tight md:-ml-6">
+            {/* Title - Removed negative margin, added flex-1 to give it its own space */}
+            <h1 className="text-5xl md:text-7xl font-serif text-foreground leading-[1.05] tracking-tight flex-1">
               Asian American <br />
               <span className="block">Mental Health Initiative</span>
             </h1>
