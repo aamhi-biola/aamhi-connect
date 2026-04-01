@@ -196,6 +196,11 @@ const Index = () => {
         <div className="container max-w-3xl">
           <SectionHeading title="Research" />
 
+          {/* New Research Introductory Text */}
+          <p className="text-center text-muted-foreground mb-12 leading-relaxed">
+            AAMHI programmatic activities are driven by culturally responsive research and program evaluation data or findings from peer-reviewed, scientific literature. To that end, we invite community members to collaborate with us to tackle important questions that will make an impact in our communities.
+          </p>
+
           <div className="space-y-8">
             <div>
               <h3 className="text-lg font-serif text-foreground mb-3">Publications</h3>
