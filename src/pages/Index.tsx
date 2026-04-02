@@ -12,6 +12,7 @@ import chriskimImg from "../pictures/chriskim.png";
 import irisImg from "../pictures/iris.jpg";
 import dianaImg from "../pictures/diana.png";
 import ericaleeImg from "../pictures/ericalee.png";
+import jooyoungImg from "../pictures/jooyoung.png";
 import terenceImg from "../pictures/terence.jpg";
 import figuresBackground from "../pictures/oneinfive.png";
 import conferenceImg from "../pictures/conference.png";
@@ -35,7 +36,7 @@ const greaterLAProfiles = [
 ];
 
 const alumniProfiles = [
-  { name: "Joo Young Ok", affiliation: "Access Institute for Psychological Services" },
+  { name: "Joo Young Ok", affiliation: "Access Institute for Psychological Services", image: jooyoungImg },
   { name: "Rong Lin", affiliation: "Pacific Clinics: Asian Pacific Family Center" },
   { name: "Terence Chen", affiliation: "University of San Francisco", image: terenceImg },
 ];
