@@ -13,7 +13,7 @@ import irisImg from "../pictures/iris.jpg";
 import dianaImg from "../pictures/diana.png";
 import ericaleeImg from "../pictures/ericalee.png";
 import jooyoungImg from "../pictures/jooyoung.png";
-import rong2Img from "../pictures/rong.png";
+import rong2Img from "../pictures/rong2.png";
 import terenceImg from "../pictures/terence.jpg";
 import figuresBackground from "../pictures/oneinfive.png";
 import conferenceImg from "../pictures/conference.png";
