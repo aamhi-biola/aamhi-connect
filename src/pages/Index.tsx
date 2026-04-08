@@ -251,6 +251,9 @@ const Index = () => {
                   Yuen, J. M., Chin, E., Wang, D. C., McMartin, J., Nettelhorst, S. C., Reynolds, D. J. Jr., Krome, L. R. (2026). <em className="italic">A Quasi-Experimental Study with Asian Americans: Self-Construal and Messaging Effects on Mental Health Help-Seeking Attitudes, Intentions, and Treatment Credibility </em>. [Manuscript submitted for publication]. Rosemead School of Psychology, Biola University.
                 </p>
                 <p className="pl-8 -indent-8">
+                  Eaton, E., Chin, E., Hall, E., & Dwiwardani, C. (2026). <em className="italic">Moral Foundations and Purity Culture Among Christian Asian American Women: The Mediating Role of Religious Fundamentalism and the Moderating Role of Colonial Mentality</em>. [Manuscript submitted for publication]. Rosemead School of Psychology, Biola University.
+                </p>
+                <p className="pl-8 -indent-8">
                   Chen, T., Chin, E., & Wang, D. (2026). <em className="italic">A Moderated Mediation Model of Asian Values Predicting Professional Help-Seeking: Exploring God-Centered Self-Esteem as a Protective Factor Against Stigma</em>. [Unpublished masters thesis]. Rosemead School of Psychology, Biola University.
                 </p>
                 <p className="pl-8 -indent-8">
