@@ -271,7 +271,9 @@ const Index = () => {
         <div className="container max-w-4xl">
           <SectionHeading title="Partner With Us" />
           
-          {/* The Introductory Paragraph */}
+          <div className="bg-background rounded-2xl p-8 md:p-12 shadow-sm border border-border text-center">
+            
+            {/* The Introductory Paragraph */}
             <p className="text-lg text-muted-foreground leading-relaxed mb-12">
               Despite the pervasive model minority myth, the psychological and mental health needs of Asian and Asian American communities are too often rendered invisible. AAMHI is dedicated to changing this narrative through culturally responsive care, clinical training, and targeted research. Your partnership makes this work possible.
             </p>
@@ -303,7 +305,6 @@ const Index = () => {
                   alt="Dr. Carissa Dwiwardani" 
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-muted mb-6 shadow-md"
                 />
-                
                 <p className="font-medium text-lg text-foreground mb-1">Dr. Carissa Dwiwardani</p>
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <Mail className="w-4 h-4 text-primary/70 flex-shrink-0" />
@@ -320,7 +321,6 @@ const Index = () => {
                   alt="Dr. Eu Gene Chin" 
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-muted mb-6 shadow-md"
                 />
-                
                 <p className="font-medium text-lg text-foreground mb-1">Dr. Eu Gene Chin</p>
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <Mail className="w-4 h-4 text-primary/70 flex-shrink-0" />
@@ -329,6 +329,7 @@ const Index = () => {
                   </a>
                 </div>
               </div>
+
             </div>
 
           </div>
