@@ -17,7 +17,7 @@ import rong2Img from "../pictures/rong2.png";
 import terenceImg from "../pictures/terence.jpg";
 import figuresBackground from "../pictures/oneinfive.png";
 import conferenceImg from "../pictures/conference.png";
-import tallTreeImg from "../pictures/tall-tree.png";
+import treeImg from "../pictures/tree.png";
 
 // --- DIRECTOR PICTURE IMPORTS ---
 import carissaImg from "../pictures/carissa.jpg"; 
@@ -114,7 +114,7 @@ const Index = () => {
         <div 
           className="absolute inset-0 w-full h-full opacity-5 pointer-events-none filter grayscale blur-sm"
           style={{ 
-            backgroundImage: `url(${tallTreeImg})`, 
+            backgroundImage: `url(${treeImg})`, 
             backgroundSize: 'auto 100%',      /* Forces the tree to stretch from top to bottom */
             backgroundPosition: 'center bottom', /* Anchors the roots to the bottom */
             backgroundRepeat: 'no-repeat',
