@@ -271,28 +271,29 @@ const Index = () => {
         <div className="container max-w-4xl">
           <SectionHeading title="Partner With Us" />
           
-          <div className="bg-background rounded-2xl p-8 md:p-12 shadow-sm border border-border text-center">
+          {/* The Introductory Paragraph */}
             <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-              Despite the pervasive model minority myth, the wellbeing and mental health needs of Asian and Asian American communities are too often rendered invisible. AAMHI is dedicated to changing this problem through culturally responsive care, clinical training, and targeted research. Your partnership makes this work possible.
+              Despite the pervasive model minority myth, the psychological and mental health needs of Asian and Asian American communities are too often rendered invisible. AAMHI is dedicated to changing this narrative through culturally responsive care, clinical training, and targeted research. Your partnership makes this work possible.
             </p>
             
-            <div className="flex flex-col items-center justify-center mb-12">
-              {/* External Donation Button */}
+            {/* 1. The Support Button */}
+            <div className="flex justify-center mb-16">
               <a 
                 href="https://connect.biola.edu/donations-asian-american-mental-health--the-church-initiative" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-block bg-primary text-primary-foreground font-medium text-lg px-8 py-4 rounded-lg shadow-md hover:opacity-90 hover:-translate-y-1 transition-all duration-300 mb-10"
+                className="inline-block bg-primary text-primary-foreground font-medium text-lg px-8 py-4 rounded-lg shadow-md hover:opacity-90 hover:-translate-y-1 transition-all duration-300"
               >
                 Support AAMHI
               </a>
-              
-              {/* New Contact Verbiage */}
-              <h4 className="font-serif text-xl text-foreground">
-                To learn more about AAMHI, please contact:
-              </h4>
             </div>
             
+            {/* 2. The New Verbiage */}
+            <h4 className="font-serif text-lg text-foreground mb-10">
+              To learn more about AAMHI, please contact:
+            </h4>
+            
+            {/* 3. The Co-Director Profiles */}
             <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-24">
               
               {/* Dr. Dwiwardani Contact */}
