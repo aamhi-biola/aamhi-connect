@@ -276,9 +276,22 @@ const Index = () => {
               Despite the pervasive model minority myth, the wellbeing and mental health needs of Asian and Asian American communities are too often rendered invisible. AAMHI is dedicated to changing this problem through culturally responsive care, clinical training, and targeted research. Your partnership makes this work possible.
             </p>
             
-            <h4 className="font-serif text-lg text-foreground mb-10">
-              To support AAMHI initiatives or make a donation, please contact:
-            </h4>
+            <div className="flex flex-col items-center justify-center mb-12">
+              {/* External Donation Button */}
+              <a 
+                href="https://connect.biola.edu/donations-asian-american-mental-health--the-church-initiative" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block bg-primary text-primary-foreground font-medium text-lg px-8 py-4 rounded-lg shadow-md hover:opacity-90 hover:-translate-y-1 transition-all duration-300 mb-10"
+              >
+                Support AAMHI
+              </a>
+              
+              {/* New Contact Verbiage */}
+              <h4 className="font-serif text-xl text-foreground">
+                To learn more about AAMHI, please contact:
+              </h4>
+            </div>
             
             <div className="flex flex-col md:flex-row items-center justify-center gap-12 md:gap-24">
               
