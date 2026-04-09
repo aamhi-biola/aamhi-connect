@@ -112,7 +112,7 @@ const Index = () => {
         
         {/* The Spanning Tree Image - UPDATED TO BE SOFTER AND BLURRIER */}
         <div 
-          className="absolute inset-0 w-full h-full opacity-15 pointer-events-none filter grayscale blur-sm"
+          className="absolute inset-0 w-full h-full opacity-7 pointer-events-none filter grayscale"
           style={{ 
             backgroundImage: `url(${treeImg})`, 
             backgroundSize: 'auto 100%',      /* Forces the tree to stretch from top to bottom */
