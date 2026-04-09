@@ -112,7 +112,7 @@ const Index = () => {
         
         {/* The Spanning Tree Image */}
         <div 
-          className="absolute inset-0 w-full h-full opacity-15 pointer-events-none filter grayscale"
+          className="absolute inset-0 w-full h-full opacity-7 pointer-events-none filter grayscale"
           style={{ 
             backgroundImage: `url(${treeImg})`, 
             backgroundSize: 'auto 100%',      /* Forces the tree to stretch from top to bottom */
