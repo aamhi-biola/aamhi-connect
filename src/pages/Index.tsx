@@ -301,7 +301,7 @@ const Index = () => {
                 {/* 1. The Support Button */}
                 <div className="flex justify-center mb-16">
                   <a 
-                    href="https://connect.biola.edu/donations-asian-american-mental-health--the-church-initiative" 
+                    href="https://connect.biola.edu/donations-asian-american-mental-health-initiative" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-block bg-primary text-primary-foreground font-medium text-lg px-8 py-4 rounded-lg shadow-md hover:opacity-90 hover:-translate-y-1 transition-all duration-300"
